@@ -25,6 +25,10 @@
     echo "lets start coding"
     ?>
 
+    <div>
+        <p>Sera</p>
+    </div>
+
 </body>
 
 </html>
