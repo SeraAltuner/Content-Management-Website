@@ -26,7 +26,15 @@
     echo "hello team";
     echo "lets start coding"
     ?>
-    <p>eceece ama ece</p>
+
+
+    <div>
+        <p>ece</p>
+    </div>
+    <div>
+        <p>Sera</p>
+    </div>
+
 
 </body>
 
