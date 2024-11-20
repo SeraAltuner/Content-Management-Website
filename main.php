@@ -13,12 +13,6 @@
         <p>Hello</p>
     </div>
 
-
-    <div>
-        <p>Hello</p>
-    </div>
-
-
     <div>
         <p>Hello</p>
     </div>
