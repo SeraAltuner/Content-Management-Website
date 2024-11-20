@@ -26,7 +26,7 @@
     echo "hello team";
     echo "lets start coding"
     ?>
-    <p>deneme ece</p>
+    <p>eceece</p>
 
 </body>
 
