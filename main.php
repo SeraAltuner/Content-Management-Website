@@ -9,31 +9,6 @@
 
 <body>
 
-    <div>
-        <p>Hello</p>
-    </div>
-
-    <div>
-        <p>Hello</p>
-    </div>
-    <div>
-        <p>Hello this is Ece.</p>
-        <p>hows ging</p>
-    </div>
-
-    <?php 
-    echo "hello team";
-    echo "lets start coding"
-    ?>
-
-
-    <div>
-        <p>ece22</p>
-    </div>
-    <div>
-        <p>Sera</p>
-    </div>
-
 </body>
 
 </html>
