@@ -15,6 +15,12 @@
     <div>
         <p>Hello this is Ece.</p>
     </div>
+
+    <?php 
+    echo "hello team";
+    echo "lets start coding"
+    ?>
+
 </body>
 
 </html>
