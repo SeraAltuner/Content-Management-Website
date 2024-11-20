@@ -9,8 +9,9 @@
 
 <body>
 
-<div><p>Hello</p></div>
-
+    <div>
+        <p>Hello</p>
+    </div>
 
     <div>
         <p>Hello</p>
@@ -25,6 +26,10 @@
     echo "lets start coding"
     ?>
 
+
+    <div>
+        <p>ece22</p>
+    </div>
     <div>
         <p>Sera</p>
     </div>
