@@ -27,6 +27,8 @@ and is wrapped around the whole page content, except for the footer in this exam
       <!-- Header -->
       <header class="w3-container w3-center w3-padding-32">
         <h1><b>CTIS FORUM</b></h1>
+        <button>Log In</button>
+        <button>Sign In</button>
       </header>
 
       <!-- Grid -->
