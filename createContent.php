@@ -33,7 +33,8 @@
     }
 
     .form-input,
-    .form-textarea {
+    .form-textarea,
+    .form-file {
         width: 100%;
         padding: 12px;
         margin: 8px 0;
@@ -44,7 +45,8 @@
     }
 
     .form-input:focus,
-    .form-textarea:focus {
+    .form-textarea:focus,
+    .form-file:focus {
         outline: none;
         border-color: #4caf50;
     }
@@ -92,7 +94,6 @@
         <!-- Header -->
         <header class="w3-container w3-center w3-padding-32">
             <h1><b>CTIS FORUM</b></h1>
-           
         </header>
 
         <!-- Create Content Form -->
@@ -103,9 +104,9 @@
                 <input type="text" id="title" name="title" class="form-input" placeholder="Enter your content title"
                     required />
 
-                <label for="description">Description</label>
-                <input type="text" id="description" name="description" class="form-input"
-                    placeholder="Enter a brief description" required />
+                <!-- Replace description input with an image upload field -->
+                <label for="image">Upload Image</label>
+                <input type="file" id="image" name="image" class="form-file" accept="image/*" required />
 
                 <label for="content">Content</label>
                 <textarea id="content" name="content" class="form-textarea" placeholder="Enter your content here"
