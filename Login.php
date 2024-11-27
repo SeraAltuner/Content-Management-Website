@@ -2,43 +2,12 @@
 session_start();
 require "db.php"; // Include your database connection file
 
-// Check if the user is already logged in via session token
-if (isset($_SESSION['token'])) {
-    // Verify and fetch user data based on session token
-    $user = getUserByToken($_SESSION['token']); // Replace with your actual function
-    if ($user) {
-        // Redirect based on user role
-        switch ($user['role']) {
-            case 'admin':
-                header("Location: admin_dashboard.php");
-                break;
-            case 'content_creator':
-                header("Location: content_creator_dashboard.php");
-                break;
-            case 'editor':
-                header("Location: editor_dashboard.php");
-                break;
-            default:
-                header("Location: index.php");
-        }
-        exit;
-    }
-}
-
-$errorMessage = "";
-
-// Handle login form submission
-// if (isset($_POST['login'])) {
-//     $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-//     $password = $_POST['password'];
-//     $userType = $_POST['userType'];
-
-//     // Get user by email and user type
-//     $user = getUserByEmailAndType($email, $userType); // Adjust according to your logic
-
-//     // Verify user credentials
-//     if ($user && password_verify($password, $user['password'])) {
-//         $_SESSION['token'] = $user['remember']; // Set session token
+// // Check if the user is already logged in via session token
+// if (isset($_SESSION['token'])) {
+//     // Verify and fetch user data based on session token
+//     $user = getUserByToken($_SESSION['token']); // Replace with your actual function
+//     if ($user) {
+//         // Redirect based on user role
 //         switch ($user['role']) {
 //             case 'admin':
 //                 header("Location: admin_dashboard.php");
@@ -50,14 +19,13 @@ $errorMessage = "";
 //                 header("Location: editor_dashboard.php");
 //                 break;
 //             default:
-//                 $errorMessage = "Invalid user role.";
-//                 break;
+//                 header("Location: index.php");
 //         }
 //         exit;
-//     } else {
-//         $errorMessage = "Invalid email, password, or user type.";
 //     }
 // }
+
+$errorMessage = "";
 ?>
 
 <!DOCTYPE html>
