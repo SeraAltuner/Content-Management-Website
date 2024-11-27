@@ -9,13 +9,7 @@
 
 <body>
 
-<p>annen</p>
 
-
-    <p>berkeeee</p>
-    <p>hello berraaaa</p>
-
-    <p>berranın annesi</p>
 
 </body>
 
