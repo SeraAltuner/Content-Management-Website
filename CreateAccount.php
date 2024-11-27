@@ -85,7 +85,7 @@ require "db.php"; // Include your database connection file
 
     <div class="w3-content" style="max-width: 500px;">
         <header class="w3-container w3-center w3-padding-32 w3-white">
-            <h1><b>Login</b></h1>
+            <h1><b>Create Your Account</b></h1>
             <?php if (!empty($errorMessage)): ?>
             <p class="w3-text-red"><?php echo $errorMessage; ?></p>
             <?php endif; ?>
@@ -103,7 +103,15 @@ require "db.php"; // Include your database connection file
                     <input type="password" id="password" name="password" required placeholder="Enter your password"
                         class="w3-input w3-border w3-round-large">
                 </div>
-                
+                <div class="w3-section">
+                    <label for="userType"><b>User Type</b></label>
+                    <select name="userType" id="userType" required class="w3-select w3-border w3-round-large">
+                        <option value="">Select User Type</option>
+                        <option value="admin">Admin</option>
+                        <option value="content_creator">Content Creator</option>
+                        <option value="editor">Editor</option>
+                    </select>
+                </div>
 
                 <button type="submit" name="login" class="w3-button w3-block w3-blue w3-padding-large w3-round-large">
                     Log In
