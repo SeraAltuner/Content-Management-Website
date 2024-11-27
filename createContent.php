@@ -92,8 +92,7 @@
         <!-- Header -->
         <header class="w3-container w3-center w3-padding-32">
             <h1><b>CTIS FORUM</b></h1>
-            <button>Log In</button>
-            <button>Sign In</button>
+           
         </header>
 
         <!-- Create Content Form -->
